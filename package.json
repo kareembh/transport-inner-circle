@@ -14,6 +14,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "gatsby": "^4.21.0",
     "gatsby-plugin-sass": "^5.21.0",
     "normalize.css": "^8.0.1",

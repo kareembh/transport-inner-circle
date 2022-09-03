@@ -1,0 +1,75 @@
+
+// Colors
+$black: #000000;
+$yellow: #FFCC33;
+$dark-yellow: #D2A210;
+$grey-dark: #333333;
+$grey: #D0CFCB;
+$grey-light: #F3F2EE;
+$white: #FFFFFF;
+
+// Typography
+$family-primary: Helvetica Now;
+
+// Font sizes
+$size-1: 84px;
+$size-2: 42px;
+$size-3: 28px;
+$size-4: 20px;
+$size-5: 16px;
+
+
+// Header styles
+h1 h2 h3 h4{
+    font-family: $family-primary;
+}
+
+h1 {
+    font-size: $size-1;
+    line-height: 84px;
+}
+
+h2 {
+    font-size: $size-2;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: size-3;
+    line-height: 33.6px;
+}
+
+h4 {
+    font-size: size-4;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+h1.header-small {
+    font-size: $size-2;
+    line-height: 48px;
+}
+
+h2.header-small {
+    font-size: $size-3;
+    line-height: 33.6px;
+}
+
+h3.header-small {
+    font-size: $size-4;
+    line-height: 22px;
+}
+
+h4.header-small {
+    font-size: $size-5;
+    line-height: 20px;
+}
+
+// Body
+p {
+    font-family: $family-primary;
+    font-size: $size-4;
+    line-height: 24px;
+}
+
+@import '../../node_modules/bulma/bulma.sass';
