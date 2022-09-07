@@ -1,0 +1,77 @@
+@import '../../styles/design-system.scss';
+
+.navbar {
+    background-color: $black;
+    
+    &__title {
+        color: $white;
+    }
+
+    &__contact-cta {
+        @include from($desktop) {
+            background-color: $yellow;
+            border-radius: 40px;
+            height: 40px;
+            align-self: center;
+            color: $black !important;
+            padding: 0 25px;
+        }
+    }
+
+    .navbar-burger {
+        color: $white;
+    }
+
+    .navbar-burger:hover {
+        background-color: unset;
+    }
+
+    .navbar-brand {
+        align-items: center;
+    }
+
+    .navbar-end {
+        @include from($desktop) {
+            padding-right: 40px;
+        }
+        @include until($desktop) {
+            padding: 5rem 0;
+            font-size: $size-2;
+        }
+        @include until($tablet) {
+            font-size: $size-3;
+        }
+    }
+
+    .navbar-item {
+        color: $black;
+        @include from($desktop) {
+            color: $white;
+        }
+    }
+
+    .navbar-item:hover {
+        @include from($desktop) {
+            color: $black;
+        }
+    }
+}
+
+// Mobile to Tablet open menu styles
+.navbar.is-active {
+    background-color: $yellow;
+    .navbar__title{
+        color: $black;
+    }
+    .navbar-menu{
+        background-color: $yellow;
+        height: 100vh;
+        @include from($desktop) {
+            background-color: $white;
+        }
+    }
+    .navbar-burger {
+        color: $black;
+    }
+}
+
