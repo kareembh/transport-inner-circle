@@ -49,6 +49,12 @@
             color: $white;
         }
     }
+
+    .navbar-item:hover {
+        @include from($desktop) {
+            color: $black;
+        }
+    }
 }
 
 // Mobile to Tablet open menu styles
