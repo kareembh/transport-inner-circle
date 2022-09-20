@@ -1,0 +1,47 @@
+@import '../../styles/design-system.scss';
+
+.hero-banner {
+    height: 1122px;  //possibly should be adjusted
+    position: relative;
+
+    &__black { //possibly should be adjusted
+        background:#000;
+        height:70%;
+        width:100%;
+    }
+
+    &__white { //possibly should be adjusted
+        background:#fff;
+        height:30%;
+        width:100%;
+    }
+
+    &__title {
+        width: 665px;
+    }
+
+    &__text {
+        width: 360px;
+        align-self: flex-end;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+
+    &__image { //this is for the image
+        width: 1200px; //possibly should be adjusted
+        height: 770px; //possibly should be adjusted
+        background-color: red;
+        position: absolute;
+        top: 320px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        border-radius: 40px;
+
+    }
+}
