@@ -1,0 +1,19 @@
+@import '../../styles/design-system.scss';
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border: solid black 1px;
+    position: fixed;
+    bottom: 0;
+    max-height: 338px;
+    width: 100%;
+    padding: 0 !important;
+
+
+
+    &__links-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
