@@ -1,7 +1,7 @@
 @import '../../styles/design-system.scss';
 
 .navbar {
-    background-color: $black;
+    background-color: $black; //not able to set navbar to black bulma is overriding my styles to white
     
     &__title {
         color: $white;
