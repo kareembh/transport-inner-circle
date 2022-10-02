@@ -1,0 +1,17 @@
+@import '../../styles/design-system.scss';
+
+.text-with-cta {
+    padding: 30px 48px;
+    border-top: solid $yellow 3px;
+
+    &__text {
+        max-width: 1050px;
+        @include until($tablet) {
+            font-size: $size-3;
+        }
+    }
+
+    &__button {
+        padding-top: 40px;
+    }
+}
