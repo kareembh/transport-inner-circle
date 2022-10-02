@@ -71,3 +71,21 @@ p {
     font-size: $size-4;
     line-height: 24px;
 }
+
+
+// All button styles go in here
+.btn {
+    border-radius: 40px;
+    padding: 10px 25px;
+    font-size: 16px;
+
+    &--primary {
+        background-color: $yellow;
+        color: $black;
+    }
+
+    &--black {
+        background-color: $black;
+        color: $white;
+    }
+}
